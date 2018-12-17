@@ -16,6 +16,10 @@ body {
     width: 40px;
 }
 
+.hide {
+    visibility: hidden;
+}
+
 .picture-container {
     height: 300px;
     width: 450px;
