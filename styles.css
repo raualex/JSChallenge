@@ -1,0 +1,22 @@
+body {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    height: 300px;
+    overflow-x: hidden;
+    width: 450px;
+  }
+
+.direction-btn {
+    height: 300px;
+    width: 40px;
+}
+
+.picture-container {
+    height: 300px;
+    width: 450px;
+}

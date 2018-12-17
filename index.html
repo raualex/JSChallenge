@@ -1,0 +1,50 @@
+<!DOCTYPE = html>
+<html lang="en">
+  <head>
+    <title>jQuery Carousel</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style type="text/css">
+    </style>
+  </head>
+  <body>
+    <button class="direction-btn left">Left</button>
+    <div class="container">
+      <div class="picture-container">
+          <img src="https://placebear.com/450/300" alt="Bear">
+      </div>
+      <div class="picture-container">
+          <img src="https://placekitten.com/450/300" alt="Kitten">
+      </div>
+      <div class="picture-container">
+          <img src="https://www.hearingdogs.org.uk/globalassets/sponsor/jade/jade-hero-450-300.jpg" alt="Puppy">
+      </div>
+    </div>
+    <button class="direction-btn right">Right</button>
+
+    <script
+      src="http://code.jquery.com/jquery-3.2.1.js"
+      integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+      crossorigin="anonymous">
+    </script>
+
+    <!-- Feel free to do your JavaScript logic directly in the HTML file for the sake of time -->
+    <script src="script.js" type="text/javascript">
+      
+    </script>
+  </body>
+</html>
+
+
+<!-- ### Phase I:
+
+* **When clicking the right arrow:** the current image should slide out to the left, and the next image should slide in from the right
+* **When clicking the left arrow:** the current image should slide out to the right, and the previous image should slide in from the left
+* When I reach the end of the slide show, hide the right arrow
+* When I reach the beginning of the slide show, hide the left arrow
+* Try using only CSS3 for the slide animation; use jQuery for the click handling and current slide detection
+
+### Phase II:
+
+* Images should slide in an infinite loop
+* Images should automatically slide every 5 seconds
+* The 5-second timer should be reset every time a new image is displayed -->
